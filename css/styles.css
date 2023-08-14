@@ -449,6 +449,20 @@ header
     text-align: center;
 }
 
+.team-and-footer
+{
+    border-radius: 50%;
+    background-color: #4D5AE5;
+    width: 40px;
+    height: 40px;
+    padding: 8px 8px 8px 8px;
+}
+
+.team-and-footer:hover
+{
+    background-color: var(--social-media);
+}
+
 .svg-advantage
 {
     flex-shrink: 0;
@@ -456,39 +470,21 @@ header
 
 .svg-team
 {
-    background-color: #4D5AE5;
+    
     background-size: 40px 40px;
     border-radius: 50%;
     padding: 12px;
 }
 
-.svg-team:hover
-{
-    background-color: var(--social-media);
-}
+
 
 .svg-customers
 {
     flex-shrink: 0;
 }
 
-.svg-footer
-{
-    flex-shrink: 0;
-    background-color: #4D5AE5;
-    background-size: 40px 40px;
-    border-radius: 50%;
-    padding: 8px;
-}
-
-.svg-footer:hover
-{
-    background-color: var(--social-media);
-}
-
 .clients
 {
-    padding: 16px 32px;
     border-radius: 4px;
     border: 1px solid  #8E8F99;
     width: 168px;

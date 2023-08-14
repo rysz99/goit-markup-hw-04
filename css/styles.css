@@ -458,6 +458,18 @@ header
     padding: 8px 8px 8px 8px;
 }
 
+.svg-customers
+{
+    fill: #8e8f99;
+}
+
+.svg-customers:hover,
+.svg-customers:focus
+{
+    fill: var(--click-and-focus);
+}
+
+
 .team:hover,
 .team:focus
 {

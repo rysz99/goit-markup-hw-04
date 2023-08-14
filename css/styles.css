@@ -449,7 +449,7 @@ header
     text-align: center;
 }
 
-.team-and-footer
+.svg
 {
     border-radius: 50%;
     background-color: #4D5AE5;
@@ -458,30 +458,16 @@ header
     padding: 8px 8px 8px 8px;
 }
 
-.team-and-footer:hover,
-.team-and-footer:focus
+.team:hover,
+.team:focus
+{
+    background-color: var(--click-and-focus);
+}
+
+.footer:hover,
+.footer:focus
 {
     background-color: var(--social-media);
-}
-
-.svg-advantage
-{
-    flex-shrink: 0;
-}
-
-.svg-team
-{
-    
-    background-size: 40px 40px;
-    border-radius: 50%;
-    padding: 12px;
-}
-
-
-
-.svg-customers
-{
-    flex-shrink: 0;
 }
 
 .clients

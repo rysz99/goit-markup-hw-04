@@ -463,6 +463,12 @@ header
     fill: #8e8f99;
 }
 
+.svg-customers:hover,
+.svg-customers:focus
+{
+    fill: var(--click-and-focus);
+}
+
 .team:hover,
 .team:focus
 {
@@ -486,7 +492,6 @@ header
 .clients:hover,
 .clients:focus
 {
-    fill: var(--click-and-focus);
     border-color: var(--click-and-focus);
 }
 
